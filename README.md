@@ -1,12 +1,12 @@
-# sent-chart
-The desktop application based on JavaFX platform
-For setup build of the project you should do this points:
-- In the file settings.gradle.kts at root folder you should insert path to the [cmake gradle plugin](https://github.com/GloRRian55/cmake-gradle-plugin) for CMake projects assembling. So you can download project of plugin at your PC. (This task is required because I don't publish this plugin anywhere yet)
-- Maybe you should change some setting for the CMake assembling, because I don't setup this for cross-platform build yet(I succesfully used MacOS and Linux but Windows usage has been failed).
-- You should have or install some dependencies: JDK(I use 17), C++ compiler(I use Clang), CMake(and also have it in your system PATH variable)
+# sent schedule
+A desktop application based on the JavaFX platform
+To set up a project build, you need to follow these steps:
+- In the settings.gradle file.kts in the root folder, you must specify the path to [cmake gradle plugin](https://github.com/GloRRian55/cmake-gradle-plugin) for building CMake projects. So that you can download the plugin project to your computer. (This task is mandatory because I haven't published this plugin anywhere yet)
+- Perhaps you should change some settings for the CMake build, because I have not yet configured it for cross-platform build (I have successfully used macOS and Linux, but Windows could not be used).
+- You must have or install some dependencies: JDK(I use 17), C++ compiler(I use Clang), CMake (and also specify them in the PATH system variable)
 
-For running application use this commands:
-- ./gradlew clean build ( use if your have any change in CMake project code)
-- ./gradlew run --stacktrace ( run application)
+To launch the application, use the following commands:
+- ./gradlew clean build (use if you have any changes in the CMake project code)
+- ./gradlew run --stacktrace (launch the application)
 
-Good luck! (and apologize me for my bad english grammar)
+Good luck! 
