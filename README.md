@@ -9,4 +9,6 @@ To launch the application, use the following commands:
 - ./gradlew clean build (use if you have any changes in the CMake project code)
 - ./gradlew run --stacktrace (launch the application)
 
-Good luck! 
+Example of application charts:
+![telegram-cloud-photo-size-2-5359596776107138431-y](https://github.com/user-attachments/assets/84192597-5d2d-48f1-9c83-50f89d18c8aa)
+
